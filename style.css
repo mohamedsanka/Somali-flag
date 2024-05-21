@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:white; 
+}
+p{
+    font: 0.9em sans-serif;  
+    font-weight: 200;
+}
+
+h1{
+    
+    color: black;
+    font: 2rem sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 400px;
+    font-weight: 600;
+}
+
+.flag {
+    width: 300px;
+    height: 200px;
+    background-color:#87ceeb; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    position: relative;
+    box-shadow: 0 1px 3px 0  rgb(18, 17, 17);
+}
+
+.star {
+    width: 100px; 
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    box-sizing: border-box;
+}
+
